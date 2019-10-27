@@ -4,7 +4,7 @@
 //
 //  Created by Michael Wang on 10/26/19.
 //  Copyright © 2019 Michael Wang. All rights reserved.
-//
+// Sources: Firebase, camera logic adapted from Coding Explorer
 
 import UIKit
 import Firebase
