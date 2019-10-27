@@ -18,6 +18,7 @@
 		4585800E2364E4EE00C7D4AD /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4585800D2364E4EE00C7D4AD /* ThirdViewController.swift */; };
 		458580102364F0C900C7D4AD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4585800F2364F0C900C7D4AD /* GoogleService-Info.plist */; };
 		45B9FB742365633900FC7C93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45B9FB722365633900FC7C93 /* Main.storyboard */; };
+		45B9FB7623657E6D00FC7C93 /* LocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B9FB7523657E6D00FC7C93 /* LocationController.swift */; };
 		45BECDA2236506910012C8C0 /* josh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BECDA1236506910012C8C0 /* josh.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,7 @@
 		4585800D2364E4EE00C7D4AD /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		4585800F2364F0C900C7D4AD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		45B9FB732365633900FC7C93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45B9FB7523657E6D00FC7C93 /* LocationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationController.swift; sourceTree = "<group>"; };
 		45BECDA1236506910012C8C0 /* josh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = josh.swift; sourceTree = "<group>"; };
 		78E7F7CE0C69D68FE3315612 /* Pods-project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-project.debug.xcconfig"; path = "Target Support Files/Pods-project/Pods-project.debug.xcconfig"; sourceTree = "<group>"; };
 		AEA9E73AA3CEB7D7EBD608EF /* Pods-project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-project.release.xcconfig"; path = "Target Support Files/Pods-project/Pods-project.release.xcconfig"; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				45BECDA1236506910012C8C0 /* josh.swift */,
 				4583A4E12364B1DC00E6E7C6 /* Main2.storyboard */,
 				45B9FB722365633900FC7C93 /* Main.storyboard */,
+				45B9FB7523657E6D00FC7C93 /* LocationController.swift */,
 				4583A4E42364B1DF00E6E7C6 /* Assets.xcassets */,
 				4583A4E62364B1DF00E6E7C6 /* LaunchScreen.storyboard */,
 				4583A4E92364B1DF00E6E7C6 /* Info.plist */,
@@ -247,6 +250,7 @@
 				4585800E2364E4EE00C7D4AD /* ThirdViewController.swift in Sources */,
 				4583A4DA2364B1DC00E6E7C6 /* AppDelegate.swift in Sources */,
 				4583A4DC2364B1DC00E6E7C6 /* SceneDelegate.swift in Sources */,
+				45B9FB7623657E6D00FC7C93 /* LocationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
