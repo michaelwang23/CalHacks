@@ -9,6 +9,10 @@
 import UIKit
 import Firebase
 class ThirdViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+    
+    
+    
+    
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var test: UILabel!
     let imagePicker = UIImagePickerController()
@@ -17,6 +21,14 @@ class ThirdViewController: UIViewController, UIImagePickerControllerDelegate, UI
         imagePicker.sourceType = .savedPhotosAlbum
         present(imagePicker, animated: false, completion: nil)
     }
+    
+    
+    @IBAction func takeImageButtonTapped(_ sender: UIButton) {
+        imagePicker.sourceType = .camera
+        present(imagePicker, animated: false, completion: nil)
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         imagePicker.delegate = self
@@ -52,9 +64,14 @@ class ThirdViewController: UIViewController, UIImagePickerControllerDelegate, UI
           // Recognized text
             let resultText = result.text
             for block in result.blocks {
-                
                 self.test.text = block.text
                 let blockText = block.text
+                if blockText.contains("h") && blockText.contains("m") {
+                    self.test.text = blockText
+                    
+                    break
+                }
+                
                 let blockConfidence = block.confidence
                 let blockLanguages = block.recognizedLanguages
                 let blockCornerPoints = block.cornerPoints
