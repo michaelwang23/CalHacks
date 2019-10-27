@@ -76,5 +76,7 @@
 	<string>pk.eyJ1IjoibWljaGFlbHdhbmc2NCIsImEiOiJjanluazJiaHAwdXhkM2lvM2d6MTR5amE5In0.G0rIBIhV6hk-fY0_WRpFnA</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>Shows your location on the map and helps improve the map.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Random text</string>
 </dict>
 </plist>
